@@ -24,7 +24,7 @@ function displayWeatherInformation(name, location, weatherResult){
 }
 
 let button = document.querySelector("#btn")
-button.addEventListener=('click', weatherInformation)
+button.addEventListener('click', weatherInformation)
 
 // https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={74ae31218625639a241dda9d0f745d8d}
 
