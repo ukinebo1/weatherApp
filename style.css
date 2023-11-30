@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #f4f4f4;
+}
+
+#weatherDetails{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#weatherDetails > p + p{
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    /* flex-basis: 40%; */
+}
+
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.weatherData{
+    margin-top: 40px;
+}
